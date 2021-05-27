@@ -736,56 +736,60 @@ section.email-sec {
 /*new css*/
 @media only screen and (min-width:1025px) {
 
-.imageBackgroudn h2 {
-    font-size: 20px;
-}
-.innerSectionLImeMixerss h2 {
-    font-size: 24px;
-}
-.contact-no h2, .location-sec h2, .email-sec-text h2 {
-    font-size: 16px;
-}
-.email-sec-text p {
-    font-size: 16px;
-}
-.bottom-sec-text h4 {
-    font-size: 16px;
+    .imageBackgroudn h2 {
+        font-size: 20px;
+    }
+    .innerSectionLImeMixerss h2 {
+        font-size: 24px;
+    }
+    .contact-no h2, .location-sec h2, .email-sec-text h2 {
+        font-size: 16px;
+    }
+    .email-sec-text p {
+        font-size: 16px;
+    }
+    .bottom-sec-text h4 {
+        font-size: 16px;
+    }
+
+    .bottom-sec-icon img {
+        max-width: 60%;
+    }
+
+    .folow-us-sec h2 {
+        font-size: 16px;
+    }
+
+    .folow-us-sec h4 {
+        font-size: 16px;
+    }
+
+    .bottom-sec-flex {
+        justify-content: initial;
+    }
+    .innerNwe h4 {
+        font-size: 24px;
+    }
+
+    .innerNwe h5 {
+        font-size: 13px;
+    }
+
+    .col-md-4 .imageBackgroudn h4 {
+        font-size: 14px;
+    }
+    .btn-view-all a {
+        font-size: 16px;
+    }
+    .home-text-area h2 {
+        font-size: 20px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+    }
+
 }
 
-.bottom-sec-icon img {
-    max-width: 60%;
-}
-
-.folow-us-sec h2 {
-    font-size: 16px;
-}
-
-.folow-us-sec h4 {
-    font-size: 16px;
-}
-
-.bottom-sec-flex {
-    justify-content: initial;
-}
-.innerNwe h4 {
-    font-size: 24px;
-}
-
-.innerNwe h5 {
-    font-size: 13px;
-}
-
-.col-md-4 .imageBackgroudn h4 {
-    font-size: 14px;
-}
-.btn-view-all a {
-    font-size: 16px;
-}
-.home-text-area h2 {
-    font-size: 20px;
-}
-.menu ul li a {
-    font-size: 15px;
-}
-
+.folow-us-sec a {
+    color: #fff;
 }

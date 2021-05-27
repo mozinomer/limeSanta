@@ -7,15 +7,15 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/images/phone-icon.png">
 						</div>
 						<div class="bottom-sec-text">
-							<h4>1528 20th street santa monica ca 90404 <br> 310.829.5463</h4>
+							<h4><?php the_field('adress','options'); ?></h4>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="folow-us-sec">
 						<h2>FOLLOW US</h2>
-						<h4>FACEBOOK</h4>
-						<h4>INSTAGRAM</h4>
+						<h4><a href="<?php the_field('facebook_link', 'options'); ?>">FACEBOOK</a></h4>
+						<h4><a href="<?php the_field('instagram_link', 'options'); ?>">INSTAGRAM</a></h4>
 					</div>
 				</div>
 			</div>
