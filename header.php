@@ -30,6 +30,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="menu">
+                        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                         <ul>
                             <li data-aos="zoom-in" data-aos-delay="500"><a href="./lime_mixer.html">MIXERS</a></li>
                             <li data-aos="zoom-in" data-aos-delay="700"><a href="./lime_mixeri.html">CULTURE</a></li>
