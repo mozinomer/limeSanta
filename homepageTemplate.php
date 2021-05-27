@@ -36,7 +36,7 @@
 </section>
 <section class="btn-view-all">
 	<div class="container">
-		<a href="#"><span>VIEW ALL MIXERS</span></a>
+		<a href="<?php echo site_url(); ?>/mixers"><span>VIEW ALL MIXERS</span></a>
 	</div>
 </section>
 

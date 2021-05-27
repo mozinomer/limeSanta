@@ -179,6 +179,9 @@ header {
     max-width: 345px;
     line-height: 1.6;
 }
+.bottom-sec-text h4 .linku {
+    color: #fff !important;
+}
 .bottom-sec-icon img {
     max-width: 122px;
 }
@@ -371,7 +374,6 @@ section.lime-text-sec {
 .imageBackgroudn h2 {
     font-size: 32px;
     border-bottom: 3px solid #ccc;
-    color: #fff;
 }
 
 .home-text-detail h2::before {
@@ -398,14 +400,90 @@ section.email-sec {
     padding: 70px 0;
 }
 
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+  max-width: 1200px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.grid-item--width2 { width: 200px; }
+.grid-item--height2 { height: 200px; }
 
 
 
+.grid-colum {
+    column-count: 3;
+    column-gap: 0;
+}
+.grid-colum img{
+    width: 100%;
+}
 
+section.isotope{
+    background-image: url(./images/14.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+}
 
+.same-image {
+    position: relative;
+    overflow: hidden;
+}
+.same-image img {
+    transition: all .3s ease-in-out;
+}
+.same-image:hover img {
+    transform: scale(1.1);
+}
+.same-image::before {
+    position: absolute;
+    content: "";
+    background:  rgba(27, 29, 31, .7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 1;
+    /* opacity: 1; */
+}
 
-
-
+.grid-colum a:hover .same-image::before {
+    opacity: 1;
+    transition-delay: 150ms;
+}
+.grid-colum a{
+    display: block;
+}
+.same-image:hover::before {
+    opacity: 1;
+}
 /*media*/
 
 
@@ -590,6 +668,9 @@ section.email-sec {
     }
     .home-text-area h2 {
         font-size: 22px;
+    }
+    .grid-colum {
+        width: 50%;
     }
 }
 @media screen and (max-width: 767px) {
