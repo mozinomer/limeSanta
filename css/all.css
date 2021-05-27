@@ -371,6 +371,7 @@ section.lime-text-sec {
 .imageBackgroudn h2 {
     font-size: 32px;
     border-bottom: 3px solid #ccc;
+    color: #fff;
 }
 
 .home-text-detail h2::before {

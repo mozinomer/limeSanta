@@ -4,7 +4,7 @@
 				<div class="col-md-6 bordr">
 					<div class="bottom-sec-flex">
 						<div class="bottom-sec-icon">
-							<img src="./images/phone-icon.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/phone-icon.png">
 						</div>
 						<div class="bottom-sec-text">
 							<h4>1528 20th street santa monica ca 90404 <br> 310.829.5463</h4>

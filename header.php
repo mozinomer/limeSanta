@@ -25,18 +25,22 @@
             <div class="row align-items-center">
                 <div class="col-md-4">
                     <div class="logo">
-                        <a href="./index.html"><img src="./images/logo.png"></a>
+                        <a href="<?php echo site_url(); ?>">
+                            <?php $custom_logo_id = get_theme_mod( 'custom_logo' );
+                            $image = wp_get_attachment_image_src( $custom_logo_id , 'full' ); ?>
+                            <img src="<?php echo $image[0]; ?>">
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-8">
                     <div class="menu">
                         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-                        <ul>
+                        <!-- <ul>
                             <li data-aos="zoom-in" data-aos-delay="500"><a href="./lime_mixer.html">MIXERS</a></li>
                             <li data-aos="zoom-in" data-aos-delay="700"><a href="./lime_mixeri.html">CULTURE</a></li>
                             <li data-aos="zoom-in" data-aos-delay="1000"><a href="./contact-us.html">CONTACT</a></li>
                             <li data-aos="zoom-in" data-aos-delay="1300"><a href="./lime-sound-design.html">LSD</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
