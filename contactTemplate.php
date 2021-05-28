@@ -49,8 +49,8 @@
 		<a href="mailto:<?php the_field('email','options'); ?>">EMAIL US</a>
 	</div>
 	<div class="social-icons">
-		<a href="#"><img src="./images/facebook.png"></a>
-		<a href="#"><img src="./images/insta.png"></a>
+		<a href="<?php the_field('facebook_link', 'options'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png"></a>
+		<a href="<?php the_field('instagram_link', 'options'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/insta.png"></a>
 	</div>
 </section>
 

@@ -5,11 +5,7 @@ get_header();?>
 
 </section>
 <div class="grid-new">
-
-
-
 	<?php 
-
 	$images = get_field('gallery_iso');
 
 	if( $images ): ?>
